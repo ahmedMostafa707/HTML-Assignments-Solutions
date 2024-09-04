@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <form action="" method="get">
+            <input type="hidden" name="token" value="b92f1fc2fce391ad7af633723afd3055">
+            <div>
+                <label for="email">Email</label> <br>
+                <input type="email" name="email" id="email" value="o@o.com">
+            </div> <hr>
+            <div>
+                <label for="username">Username</label>
+                <br>
+                <input type="text" name="username" id="username" autofocus required minlength="5" maxlength="20" placeholder="Enter username" >
+            </div> <hr>
+
+            <div>
+                <input type="checkbox" id="problemSolving" name="skills" value="Problem Solving">
+                <label for="problemSolving">Problem Solving</label>
+            </div>
+            <div>
+                <input type="checkbox" id="loggicalThinking" name="skills" value="Logical Thinking" checked>
+                <label for="loggicalThinking">Logical Thinking</label>
+            </div>
+            <div>
+                <input type="checkbox" id="advancedSearch" name="skills" value="Advanced Search">
+                <label for="advancedSearch">Advanced Search</label>
+            </div>
+            <div>
+                <input type="checkbox" id="analysis" name="skills" value="Analysis">
+                <label for="analysis">Analysis</label>
+            </div>
+            <div>
+                <input type="checkbox" id="planning" name="skills" value="Planning">
+                <label for="planning">Planning</label>
+            </div> <hr>
+            <div>
+                <input type="radio" name="job" id="frontend" value="Front-End Developer">
+                <label for="frontend">Front-End Developer</label>
+            </div>
+            <div>
+                <input type="radio" name="job" id="backend" value="Back-End Developer">
+                <label for="backend">Back-End Developer</label>
+            </div>
+            <div>
+                <input type="radio" name="job" id="businessAnalyst" value="Business Analyst">
+                <label for="businessAnalyst">Business Analyst</label>
+            </div>
+            <div>
+                <input type="radio" name="job" id="projectManager" value="Project Manager" checked>
+                <label for="projectManager">Project Manager</label>
+            </div>
+            <div>
+                <input type="radio" name="job" id="scrumMaster" value="Scrum Master">
+                <label for="scrumMaster">Scrum Master</label>
+            </div> <hr>
+
+            <div>
+                <label for="book">Choose Book: </label>
+                <select name="book" id="book">
+                    <optgroup label="PHP">
+                        <option value="php5.0">v5.0</option>
+                        <option value="php7.0">v7.0</option>
+                        <option value="php8.0">v8.0</option>
+                    </optgroup>
+                    <optgroup label="Python">
+                        <option value="python2.0">v2.0</option>
+                        <option value="python3.0">v3.0</option>
+                        <option value="python3.9">v3.9</option>
+                    </optgroup>
+                </select>
+            </div> <hr>
+            <textarea name="brief" placeholder="Write Here Why You Want To Learn Programming" cols="40" rows="10"></textarea>
+            <br>
+            <input type="reset" value="Empty">
+            <input type="submit" value="Send">
+        </form>
+    </body>
+</html>
